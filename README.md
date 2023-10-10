@@ -1,1 +1,2 @@
 This is a Project to solve the 9x9 sudoku game using the concept of Backtracking Algorithm.
+The backtracking method find empty square and assign the lowest valid number in the square once the content of other squares in the same row, column and box are considered. However, if none of the numbers from 1 to 9 are valid in a certain square, the algorithm backtracks to the previous square, which was filled recently.
